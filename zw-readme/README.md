@@ -48,12 +48,13 @@
 
 Через API Gateway (zuul server):----------------------------------------------------
 
-[1) clip-maker сервис через www](http://www.localhost:8765/eureka-client-clipmaker/clipmaker "www.localhost:8765/...")
-
 Простые ссылки (надо копировать и вставлять в браузер):
 
 [http://localhost:8765/eureka-client-clipmaker/clipmaker](http://localhost:8765/eureka-client-clipmaker/clipmaker) 
 clipmaker-service
+
+[--clip-maker: кликабельно](http://www.localhost:8765/eureka-client-clipmaker/clipmaker "www.localhost:8765/...")
+
 
 [http://localhost:8765/eureka-client-music/music](http://localhost:8765/eureka-client-music/music)
  music-service
@@ -61,9 +62,7 @@ clipmaker-service
 [http://localhost:8765/eureka-client-film/film](http://localhost:8765/eureka-client-film/film)
  film-service
  
- Напрямую:----------------------------------------------------------------------------------
- 
- [http://localhost:8761/](http://localhost:8761/) информационная страница сервера (Eureka)
+ Ссылки напрямую с сервисами, без API Gateway (zuul server):------------------ [http://localhost:8761/](http://localhost:8761/) информационная страница сервера (Eureka)
  
  [http://localhost:8300/clipmaker](http://localhost:8300/clipmaker) clipmaker-service
  
